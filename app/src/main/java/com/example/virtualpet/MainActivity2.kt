@@ -32,6 +32,16 @@ class MainActivity2 : AppCompatActivity() {
             imageView.setImageResource(R.drawable.img_4)
         }
 
+        updateStatusText()
+
+        private fun feedPet() {
+            hunger = 20
+            if (hunger < 0) hunger=0
+            health += 10
+            if (health > 100) health=100
+            updateStatusText()
+        }
+
 
     }
 }
