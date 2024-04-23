@@ -28,13 +28,18 @@
         android:id="@+id/cleanBtn"
         android:layout_width="170dp"
         android:layout_height="73dp"
+        android:layout_marginStart="120dp"
+        android:layout_marginEnd="121dp"
+        android:layout_marginBottom="2dp"
         android:backgroundTint="#8BC34A"
         android:text="Clean"
-        android:textSize="30sp"
-        android:textColor="@color/black"
         android:textAlignment="center"
-        tools:layout_editor_absoluteX="120dp"
-        tools:layout_editor_absoluteY="656dp" />
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/feedBtn" />
 
     <Button
         android:id="@+id/playBtn"
@@ -52,4 +57,53 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/feedBtn"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="294dp"
+        android:layout_height="577dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="59dp"
+        android:layout_marginEnd="28dp"
+        android:layout_marginBottom="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/cleanBtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.651"
+        app:layout_constraintStart_toEndOf="@+id/feedBtn"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/img_2" />
+
+    <TextView
+        android:id="@+id/hungerTextView"
+        android:layout_width="150dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="241dp"
+        android:layout_marginBottom="2dp"
+        android:text="Hunger - 0"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/happinessTextView"
+        android:layout_height="44dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginEnd="44dp"
+        android:text="Happy - 100"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/hungerTextView"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_width="140dp"/>
 </androidx.constraintlayout.widget.ConstraintLayout>
