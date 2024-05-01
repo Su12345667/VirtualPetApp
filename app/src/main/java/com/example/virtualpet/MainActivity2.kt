@@ -10,9 +10,9 @@ class MainActivity2 : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main2)
 
-        private var Happiness  = 100
-        private var Hunger = 0
-        private var Cleanliness = 100
+        private var health  = 100
+        private var hunger = 0
+        private var cleanliness = 100
 
         val feedBtn = findViewById<Button>(R.id.feedBtn)
         val playBtn =findViewById<Button>(R.id.playBtn)
@@ -41,7 +41,18 @@ class MainActivity2 : AppCompatActivity() {
             if (health > 100) health=100
             updateStatusText()
         }
-
-
+        private fun cleanPet(){
+            cleanliness = 100
+            health += 5
+            if (health > 100) health=100
+            updateStatusText()
+        }
+        private fun playWithPet(){
+            health -= 10
+            if (health < 0) health=0
+            hunger += 20
+            if (hunger > 100) hunger=100
+            updateStatusText()
+        }
     }
 }
