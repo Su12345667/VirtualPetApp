@@ -5,9 +5,10 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
 import android.widget.ImageView
+import android.widget.TextView
 
 class MainActivity2 : AppCompatActivity() {
-    @SuppressLint("MissingInflatedId")
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main2)
@@ -31,9 +32,10 @@ class MainActivity2 : AppCompatActivity() {
             imageView.setImageResource(R.drawable.img_4)
         }
     }
-    var health = 100
-    var hunger = 0
-    var cleanliness = 100
+    private var health = 100
+    private var hunger = 0
+    private  var cleanliness = 100
+
     fun updateStatusText() {}
 
     fun feedPet() {
@@ -45,18 +47,18 @@ class MainActivity2 : AppCompatActivity() {
     }
 
 
-    fun cleanPet() {
-        cleanliness = 100
-        health += 10
-        if (health > 100) health = 100
-        updateStatusText()
-    }
+        private fun cleanPet() {
+            cleanliness = 100
+            health += 10
+            if (health > 100) health = 100
+            updateStatusText()
+        }
 
-    fun playWithPet() {
-        health -= 15
-        if (health > 0) health = 0
-        hunger += 15
-        if (hunger > 100) hunger = 100
-        updateStatusText()
-    }
-}
+        private fun playWithPet() {
+            health -= 15
+            if (health > 0) health = 0
+            hunger += 15
+            if (hunger > 100) hunger = 100
+            updateStatusText()
+        }
+        }
