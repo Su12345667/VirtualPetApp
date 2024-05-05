@@ -18,6 +18,7 @@ class MainActivity : AppCompatActivity() {
             startActivity(Intent(this,MainActivity2::class.java))
             finish()
         }
+
         exitBtn.setOnClickListener {
             finish()
         }

@@ -1,23 +1,26 @@
 package com.example.virtualpet
 
+import android.annotation.SuppressLint
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
 import android.widget.ImageView
 
 class MainActivity2 : AppCompatActivity() {
+    @SuppressLint("MissingInflatedId")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main2)
 
-        private var health  = 100
-        private var hunger = 0
-        private var cleanliness = 100
+        var health = 100
+        var hunger = 0
+        var cleanliness = 100
 
         val feedBtn = findViewById<Button>(R.id.feedBtn)
-        val playBtn =findViewById<Button>(R.id.playBtn)
+        val playBtn = findViewById<Button>(R.id.playBtn)
         val cleanBtn = findViewById<Button>(R.id.cleanBtn)
         val imageView = findViewById<ImageView>(R.id.imageView)
+
 
         playBtn.setOnClickListener {
             playWithPet()
@@ -31,28 +34,29 @@ class MainActivity2 : AppCompatActivity() {
             cleanPet()
             imageView.setImageResource(R.drawable.img_4)
         }
+        fun updateStatusText() {}
 
-        updateStatusText()
-
-        private fun feedPet() {
+        fun feedPet() {
             hunger = 20
-            if (hunger < 0) hunger=0
+            if (hunger > 0) hunger = 0
             health += 10
-            if (health > 100) health=100
+            if (health > 100) health = 100
             updateStatusText()
         }
-        private fun cleanPet(){
+
+        fun cleanPet() {
             cleanliness = 100
             health += 5
-            if (health > 100) health=100
+            if (health > 100) health = 100
             updateStatusText()
         }
-        private fun playWithPet(){
+
+        fun playWithPet() {
             health -= 10
-            if (health < 0) health=0
+            if (health < 0) health = 0
             hunger += 20
-            if (hunger > 100) hunger=100
+            if (hunger > 100) hunger = 100
             updateStatusText()
         }
     }
-}
+    }
