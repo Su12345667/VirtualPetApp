@@ -12,10 +12,6 @@ class MainActivity2 : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main2)
 
-        var health = 100
-        var hunger = 0
-        var cleanliness = 100
-
         val feedBtn = findViewById<Button>(R.id.feedBtn)
         val playBtn = findViewById<Button>(R.id.playBtn)
         val cleanBtn = findViewById<Button>(R.id.cleanBtn)
@@ -34,29 +30,33 @@ class MainActivity2 : AppCompatActivity() {
             cleanPet()
             imageView.setImageResource(R.drawable.img_4)
         }
-        fun updateStatusText() {}
-
-        fun feedPet() {
-            hunger = 20
-            if (hunger > 0) hunger = 0
-            health += 10
-            if (health > 100) health = 100
-            updateStatusText()
-        }
-
-        fun cleanPet() {
-            cleanliness = 100
-            health += 5
-            if (health > 100) health = 100
-            updateStatusText()
-        }
-
-        fun playWithPet() {
-            health -= 10
-            if (health < 0) health = 0
-            hunger += 20
-            if (hunger > 100) hunger = 100
-            updateStatusText()
-        }
     }
+    var health = 100
+    var hunger = 0
+    var cleanliness = 100
+    fun updateStatusText() {}
+
+    fun feedPet() {
+        hunger = 20
+        if (hunger > 0) hunger = 0
+        health += 10
+        if (health > 100) health = 100
+        updateStatusText()
     }
+
+
+    fun cleanPet() {
+        cleanliness = 100
+        health += 10
+        if (health > 100) health = 100
+        updateStatusText()
+    }
+
+    fun playWithPet() {
+        health -= 15
+        if (health > 0) health = 0
+        hunger += 15
+        if (hunger > 100) hunger = 100
+        updateStatusText()
+    }
+}
