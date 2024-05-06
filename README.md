@@ -15,9 +15,13 @@ The user interface designed is intuitive and overall easy to navigate. The user 
 
 The user interface (as can be seen on the right) is displayed as it would be displayed on the user’s screen/device. This screenshot shows the layout of the start screen, and displays the image view, both the start and exit button, and lastly the text view. It also displays the use of vibrant colours and the attraction the application poses for users.
 
+![image](https://github.com/Su12345667/VirtualPetApp/assets/163244104/e151d9fa-c5db-4ede-bab7-b26103215d0c)
 
+![image](https://github.com/Su12345667/VirtualPetApp/assets/163244104/5602d4df-c648-45e7-847c-205b37ff14ef)
 
+![image](https://github.com/Su12345667/VirtualPetApp/assets/163244104/fb810b05-9b3f-4a79-8d48-2a622fb7aafa)
 
+![image](https://github.com/Su12345667/VirtualPetApp/assets/163244104/d6934827-9670-489f-90f4-5f98514bc13a)
 
 The Virtual Pet App was developed on Android Studio using the coding language Kotlin. While developing the application I faced multiple challenges, initially I could not change the images into functioning GIFs/ video displays as the Glide.with function was not executed properly. Secondly, I had struggled time and time again to ensure that the TextViews changed accordingly (the given numbers either increased or decreased as either the play button, feed button, or clean button was clicked). Another problem I incurred over the developmental process of the application was ensuring that all the elements used were not overshadowing another element. This means that the use of colour in the application was time consuming to implement as I had to ensure all the videos and text were always visible. Lastly, when coding the functions playWithPet, feedPet, and cleanPet the links to the if statements were not functional therefore resulting in no movement of the numbers when the feed, play, and clean buttons were clicked. 
 
@@ -33,11 +37,14 @@ This particular application (The Virtual Pet App) does not make use of error han
 There were a lot of factors to consider while coding my application. First, the text's size and colour scheme. This is significant since it impacts the application's usability and visibility. The position of the display text view functions is another thing to take into account when coding the application. I have positioned the display text view functions at the top of the screen to ensure visibility for all users. If the display text functions were located at the bottom of the application, the user might not notice it as the image view could distract them. 
 
 Throughout the development process GitHub was used. GitHub is a coding platform that hosts users for collaborations, version control, and continuous integration. With the use of GitHub developers are enabled to easily share files for code and simultaneously provide input for the development of software. It allows developers or users to track changes to code in a web-based interface and automates testing and deployment of software. GitHub ensures that applications are robust and maintainable.
- 
+ ![image](https://github.com/Su12345667/VirtualPetApp/assets/163244104/007d49c8-fc20-4fe0-ac91-34c8cbe74c15)
 
 To make use of the above-mentioned GitHub actions a user must create a repository. The repository is used to store your code and a files revision history. The repository used for my application is named VirtualPetApp and is a public file. The GitHub folder includes a ReadMe file. A ReadMe file is a description of the code in the repository. To share your code from Android Studios to GitHub regularly commit and push your updated software files. This ensures that every version of the application can be seen and edited. This also allows the user to easily test the application other than on Android Studios. 
 
 For the submission of this application, the code had to be pushed onto a GitHub classroom link. To push the files open and run command prompt (CMD) where I then typed the necessary commands and configuration steps to push my Kotlin code file onto GitHub. Once all the correct commands are typed and necessary steps are followed, refresh the browser and all the necessary files should be pushed and reflect on the GitHub classroom link. In the ReadMe file ensure the link of the YouTube video presentation is added.  The video demonstrates how the application functions and runs on a user’s device/screen. The last step of the submission process is to add the ReadMe link into the write up of the application and submit on both Brightspace and GitHub. 
+
+![image](https://github.com/Su12345667/VirtualPetApp/assets/163244104/71e3b57e-f0ea-4d5f-b403-d69254681aac)
+
 And lastly, using Android Studio for the developing process of this task. The coding language Kotlin, a condensed form of Java, was used with Android Studio to create this application, The Virtual Pet App. Android Studio is the official IDE (integrated development environment) for creating Android software/applications. Coding tools including an emulator, gradle build system, code editor, testing tools, and much more are available for use in Android studio. These features make it simple to develop and test applications. With Android Studio, users may create effective, high-quality Android applications. 
 
  
