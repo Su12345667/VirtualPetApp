@@ -37,8 +37,9 @@ class MainActivity2 : AppCompatActivity() {
         }
 
         fun feedPet() {
-            hunger = 20
-            if (hunger > 0) hunger -= 20
+            hunger = 0
+            hunger += 20
+            if (hunger > 0) hunger = 0
             health += 10
             if (health > 100) health = 100
             updateStatusText()
@@ -72,7 +73,7 @@ class MainActivity2 : AppCompatActivity() {
         }
         cleanBtn.setOnClickListener {
             cleanPet()
-            imageView.setImageResource(R.drawable.img_7 )
+            imageView.setImageResource(R.drawable.img_8 )
         }
         exitBtn.setOnClickListener {
             finish()
