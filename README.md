@@ -9,6 +9,8 @@ The Virtual Pet App is an application that is designed to entertain users by hav
 
 The user interface designed is intuitive and overall easy to navigate. The user interface is designed to be compatible with a variety of screens and devices while /*providing a seamless user experience. It grabs the attention of the user and is designed using material design principals such as the use of vibrant colours, consistency within the layout and components, and the use of animations. The appearance of the UI is sleek. The UI also makes use of buttons such as a start button and an exit button. The user interface has a balance between functionality and aesthetics. The Virtual Pet App makes use of an animation of the virtual pet for the user to view on the start page. 
 
+![image](https://github.com/Su12345667/VirtualPetApp/assets/163244104/7ab2d8af-f821-460f-a69a-6eef88b4e4b2)
+
 The user interface (as can be seen on the right) is displayed as it would be displayed on the user’s screen/device. This screenshot shows the layout of the start screen, and displays the image view, both the start and exit button, and lastly the text view. It also displays the use of vibrant colours and the attraction the application poses for users.
 
 
