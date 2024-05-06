@@ -1,6 +1,8 @@
  Virtual Pet App 
 The Virtual Pet App is an application that allows the user to interact with a virtual pet. The user can play, feed, and clean their virtual pet while observing the health, hunger, and cleanliness of it. The Virtual Pet App runs on 96,3% of all android devices. 
+
  
+![image](https://github.com/Su12345667/VirtualPetApp/assets/163244104/3640d133-e84a-49c3-9ad9-061d4cb4a2cf)
 
 The Virtual Pet App is an application that is designed to entertain users by having their very own virtual pet. The application features a welcome page where the user clicks the start button that then directs the user into the virtual pet application. The application also has features for the user to interact with such as a play button, a feed button, and a clean button. The application also makes use of video displays as certain buttons are clicked by the user.
 
