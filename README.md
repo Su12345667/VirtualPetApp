@@ -27,12 +27,6 @@ The Virtual Pet App was developed on Android Studio using the coding language Ko
 
 The provided screenshots show the source code of the Virtual Pet App that is written in the Kotlin coding language. The MainActivity class shows all the functions coded to make the application function such as the use of the updateStatusText function. The application code also makes use of multiple if statements to ensure that the hunger level, health level, and cleanliness level change when necessary. All of these functions only work once all the necessary variables have been initialized. The variables are initialized in the code by either using var or val. Lastly, each button is set by using the set on click listener function and then coding the functions. 
 
- 
-
- 
-
- 
-
 This particular application (The Virtual Pet App) does not make use of error handling as there is no user input and the application only functions when buttons are clicked which then generates the desired outcome. 
 There were a lot of factors to consider while coding my application. First, the text's size and colour scheme. This is significant since it impacts the application's usability and visibility. The position of the display text view functions is another thing to take into account when coding the application. I have positioned the display text view functions at the top of the screen to ensure visibility for all users. If the display text functions were located at the bottom of the application, the user might not notice it as the image view could distract them. 
 
@@ -40,6 +34,7 @@ Throughout the development process GitHub was used. GitHub is a coding platform 
  ![image](https://github.com/Su12345667/VirtualPetApp/assets/163244104/007d49c8-fc20-4fe0-ac91-34c8cbe74c15)
 
 To make use of the above-mentioned GitHub actions a user must create a repository. The repository is used to store your code and a files revision history. The repository used for my application is named VirtualPetApp and is a public file. The GitHub folder includes a ReadMe file. A ReadMe file is a description of the code in the repository. To share your code from Android Studios to GitHub regularly commit and push your updated software files. This ensures that every version of the application can be seen and edited. This also allows the user to easily test the application other than on Android Studios. 
+![image](https://github.com/Su12345667/VirtualPetApp/assets/163244104/848b5fd9-c082-4416-bbc7-4294b422f4cb)
 
 For the submission of this application, the code had to be pushed onto a GitHub classroom link. To push the files open and run command prompt (CMD) where I then typed the necessary commands and configuration steps to push my Kotlin code file onto GitHub. Once all the correct commands are typed and necessary steps are followed, refresh the browser and all the necessary files should be pushed and reflect on the GitHub classroom link. In the ReadMe file ensure the link of the YouTube video presentation is added.  The video demonstrates how the application functions and runs on a user’s device/screen. The last step of the submission process is to add the ReadMe link into the write up of the application and submit on both Brightspace and GitHub. 
 
